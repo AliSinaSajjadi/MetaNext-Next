@@ -41,9 +41,9 @@
     align-items: center;
 
 }
-.tablet{
+/* .tablet{
     width: 800px;
-}
+} */
 .back1{
     z-index: 1;
     position: relative;
