@@ -1,0 +1,159 @@
+
+
+.container {
+
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    flex-shrink: 0;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+
+
+}
+
+.list {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    font-family: peyda-medium;
+}
+
+.list li {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-color-secondary-text-color, #626E94);
+}
+
+
+.list img {
+    display: flex;
+    width: 15px;
+    height: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.list :hover {
+    color: #0CA0A2;
+}
+
+.logo {
+    display: flex;
+    width: 160px;
+    gap: 12px;
+    align-items: center;
+
+
+}
+
+
+.logo h2 {
+    color: #000;
+    text-align: right;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    font-family: peyda-medium;
+    margin: 0;
+}
+
+.logo p {
+    margin: 0;
+    color: #7E8AAB;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+    width: 150px;
+    font-family: peyda-light;
+
+}
+
+.logoImage {
+    width: 50.042px;
+    height: 54.714px;
+
+}
+
+.demo {
+    background-color: #0CA0A2;
+    box-shadow: 0px 14px 24px 0px rgba(12, 160, 162, 0.27);
+    border-radius: 10px;
+    display: flex;
+    width: 147px;
+    height: 66px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: peyda-light;
+}
+
+.demo h3 {
+    width: 80px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #FFF;
+    text-align: center;
+
+}
+
+.language {
+    display: flex;
+    width: 24px;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    gap: 5px;
+    margin-top: 15px;
+    font-family: peyda-medium;
+    color: #7E8AAB;
+}
+
+.dial {
+    display: flex;
+    width: 147px;
+    height: 54px;
+    gap: 12px;
+    align-items: center;
+    
+}
+
+.dial p {
+    color: var(--text-color-secondary-text-color-2, #7E8AAB);
+    font-family: peyda-light;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0;
+
+}
+.dial h3{
+    font-family: peyda-medium;
+    margin: 0;
+    margin-top: 5px;
+}
+.vector{
+    position: absolute;
+    width: 25.5px;
+    height: 7px;
+    right: 400px;
+    top: 80px;
+    }
+.Link{
+    text-decoration: none;
+} 

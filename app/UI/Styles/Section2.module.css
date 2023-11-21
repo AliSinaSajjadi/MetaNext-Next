@@ -1,0 +1,88 @@
+ .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 auto ;
+    margin-bottom: -900px;
+    overflow: hidden;
+} 
+.metanext{
+    width: 100%;
+}
+.calculater{
+    position: relative;
+    right:-20px;
+    bottom: 500px;
+}
+.search{
+    position: relative;
+    right: -150px;
+    bottom: 250px;
+}
+.chat{
+    position: relative;
+    right: 0px;
+    bottom: 150px;
+}
+.managment{
+    position: relative;
+    right: 150px;
+    bottom: 250px;
+}
+.app{
+    position: relative;
+    right: 20px;
+    bottom: 500px;
+}
+.front{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.tablet{
+    width: 800px;
+}
+.back1{
+    z-index: 1;
+    position: relative;
+    bottom: 700px;
+    right: 350px;
+    transform: rotate(-25deg);
+    background-color: black;
+    
+}
+.back2{
+    z-index: 1;
+    position: relative;
+    bottom: 1200px;
+    right:-350px;
+    transform: rotate(130deg);
+    
+}
+.calculater:hover{
+    transition-duration: 200ms;
+    transform: scale(1.15);
+
+}
+.search:hover{
+    transition-duration: 200ms;
+    transform: scale(1.15);
+
+}
+.chat:hover{
+    transition-duration: 200ms;
+    transform: scale(1.15);
+
+}
+.managment:hover{
+    transition-duration: 200ms;
+    transform: scale(1.15);
+
+}
+.app:hover{
+    transition-duration: 200ms;
+    transform: scale(1.15);
+
+}

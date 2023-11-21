@@ -1,0 +1,364 @@
+.section1 {
+    display: flex;
+    flex-direction: row;
+    background: #011627;
+    background-image: url("../../../public/Footer/Sec1back.png");
+    width: 100%;
+    height: 160px;
+    justify-content: space-between;
+    margin-top: 70px;
+    align-items: center;
+    font-family: peyda-medium;
+
+
+}
+
+.text {
+    color: #BFC4D5;
+    text-align: right;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    margin-right: 52px;
+    gap: 10px;
+}
+
+.text div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.text h2 {
+    color: #FFF;
+    text-align: right;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0;
+}
+
+.text p {
+    margin: 0;
+}
+
+.text img {
+    display: flex;
+    width: 62px;
+    height: 69px;
+    padding: 6.458px 6.736px 6.458px 5.167px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    /* margin-left: 10px; */
+
+}
+
+.number {
+    color: var(--basic-color-white, #FFF);
+    text-align: right;
+    /* Heading/H 2 */
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 52px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    border-bottom: solid rgba(189, 197, 221, 0.80) 1px;
+    padding-bottom: 20px;
+    font-family: peyda-medium;
+    /* width: 100%; */
+}
+
+
+.logo {
+    display: flex;
+    width: 160px;
+    gap: 12px;
+    /* margin-left: 42px; */
+    align-items: center;
+
+
+}
+
+.logo h2 {
+    margin: 0;
+    color: #000;
+    text-align: right;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.logo p {
+    margin: 0;
+    color: #7E8AAB;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 300px;
+    font-family: peyda-light;
+}
+
+.logoImage {
+    display: flex;
+    flex-direction: column;
+    width: 64 .899px;
+    height: 74.049px;
+
+}
+
+.section3 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.section3 h3 {
+    color: #000;
+    text-align: right;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    font-family: peyda-medium;
+}
+
+.metanext {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+}
+
+.services {
+    height: 350px;
+
+}
+
+.services li {
+    display: flex;
+    align-items: center;
+
+}
+
+.section3 li {
+    color: var(--text-color-secondary-text-color-2, #7E8AAB);
+    text-align: right;
+    margin: 20px 0;
+
+    /* body/body xs */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+    list-style: none;
+    font-family: peyda-light;
+    align-items: center;
+}
+
+.customersservice {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 210px;
+}
+
+.services img {
+    width: 35px;
+    height: 37px;
+}
+
+.locationtext {
+    margin-left: 135px;
+    display: flex;
+    margin-bottom: 10px;
+
+
+}
+
+.contact {
+    height: 260px;
+
+}
+
+.list {
+    display: flex;
+    align-items: center;
+}
+
+
+.firstlist h4 {
+    margin: 0;
+    color: var(--text-color-primary-text-color, #011627);
+    font-family: Peyda-medium;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.firstlist {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    
+}
+
+.contact li p {
+    margin: 0 10px;
+    margin-left: 20px;
+}
+
+.h4 {
+    color: var(--text-color-primary-text-color, #011627);
+    text-align: right;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: peyda-bold;
+}
+
+.enamad {
+    margin-top: 100px;
+    /* display: inline-flex; */
+    width: 140px;
+    height: 157px;
+    /* align-items: flex-start; */
+    /* margin-top: 40px; */
+}
+
+.section4 {
+    margin: auto;
+    width: 1219px;
+    height: 123px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    position: relative;
+    background:repeating-linear-gradient(155deg, rgb(22, 179, 172) 29%, rgb(12, 159, 162) 30% , rgb(12, 159, 162) 30% , rgb(12, 159, 162) 31%);
+}
+
+.background {
+    opacity: 0.1;
+}
+
+.demotext {
+    width: 1219px;
+    height: 123px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: peyda-medium;
+
+}
+
+.demotext h2 {
+    margin-right: 45px;
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.demotext div {
+    display: flex;
+    margin-left: 45px;
+    width: 170px;
+    height: 45px;
+    padding: 17px 31px;
+    border-radius: 13px;
+    background: var(--basic-color-white, #FFF);
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 14px 24px 0px rgba(57, 89, 248, 0.31);
+    
+
+
+}
+
+.demotext img {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+
+}
+
+.demotext p {
+    color: var(--primary-color-primary-color, #0CA0A2);
+    text-align: center;
+    /* button/button-sm */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    justify-content: center;
+}
+
+.copyright {
+    margin: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: peyda-thin;
+}
+
+.copyright p {
+    color: var(--text-color-secondary-text-color-2, #7E8AAB);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    color: var(--text-color-secondary-text-color-2, #7E8AAB);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.textc {
+    display: flex;
+    align-items: center;
+}
+
+.textc img {
+    width: 24px;
+    height: 24px;
+}
+
+/* .textc p {
+    color: var(--text-color-secondary-text-color-2, #7E8AAB);
+    font-family: Peyda;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--text-color-secondary-text-color-2, #7E8AAB);
+    font-family: Peyda;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+} */
+
+.textc img {
+    justify-content: start;
+    margin-left: 10px;
+}
