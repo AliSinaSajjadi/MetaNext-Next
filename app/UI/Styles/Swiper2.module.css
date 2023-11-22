@@ -141,6 +141,7 @@
     position: relative;
     bottom: 60px;
     left: 210px;
+    cursor: pointer;
 }
 
 .length {

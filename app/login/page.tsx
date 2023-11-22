@@ -78,7 +78,7 @@ const Login: React.FC = () => {
                             touched,
                             handleBlur,
                         }) => (
-                            <Form >
+                            <Form className={style.form} >
                                 <input
                                     autoFocus={true}
                                     className={style.number}

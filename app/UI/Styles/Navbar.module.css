@@ -4,7 +4,7 @@
 
     display: flex;
     margin: 0 auto;
-    width: 90%;
+    width: 1100px;
     flex-shrink: 0;
     justify-content: space-between;
     align-items: center;
@@ -15,14 +15,15 @@
 }
 
 .list {
-    width: 600px;
+    width: 500px;
     display: flex;
     justify-content: space-between;
     font-family: peyda-medium;
 }
 
 .list li {
-    font-size: 16px;
+    cursor: pointer;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     list-style: none;
@@ -49,7 +50,7 @@
 
 .logo {
     display: flex;
-    width: 160px;
+    width: 140px;
     gap: 12px;
     align-items: center;
 
@@ -60,7 +61,7 @@
 .logo h2 {
     color: #000;
     text-align: right;
-    font-size: 27px;
+    font-size: 23px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -72,7 +73,7 @@
     margin: 0;
     color: #7E8AAB;
     text-align: right;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 300;
     line-height: 160%;
@@ -82,8 +83,8 @@
 }
 
 .logoImage {
-    width: 50.042px;
-    height: 54.714px;
+    width: 45.042px;
+    height: 50.714px;
 
 }
 
@@ -92,8 +93,8 @@
     box-shadow: 0px 14px 24px 0px rgba(12, 160, 162, 0.27);
     border-radius: 10px;
     display: flex;
-    width: 147px;
-    height: 66px;
+    width: 137px;
+    height: 60px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -121,7 +122,9 @@
     margin-top: 15px;
     font-family: peyda-medium;
     color: #7E8AAB;
+    cursor: pointer;
 }
+
 
 .dial {
     display: flex;

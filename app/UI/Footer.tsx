@@ -22,6 +22,7 @@ import Message from "Footer/Message.png"
 import demo from "Footer/presention-chart-blue.png"
 import background from "Footer/Sec4back.png"
 import copyright from "Footer/copyright.png"
+import Link from 'next/link';
 
 
 
@@ -121,10 +122,10 @@ const Footer: React.FC = () => {
             <div className={style.section4}>
                 <div className={style.demotext}>
                     <h2>دریافت دمو رایگان</h2>
-                    <div>
+                    <Link className={style.link} href="login">
                         <img src="Footer/presention-chart-blue.png" />
                         <p>دمو رایگان</p>
-                    </div>
+                    </Link>
                 </div>
             </div>
             <div className={style.copyright}>

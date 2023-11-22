@@ -141,7 +141,7 @@ width: 69px ;
     flex-shrink: 0;
     margin: auto;
     color: #FFF;
-
+    cursor: pointer;
     text-align: center;
     /* button/button-sm */
     font-size: 18px;

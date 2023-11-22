@@ -41,9 +41,9 @@
     align-items: center;
 
 }
-/* .tablet{
-    width: 800px;
-} */
+ .tablet{
+    cursor: pointer;
+} 
 .back1{
     z-index: 1;
     position: relative;

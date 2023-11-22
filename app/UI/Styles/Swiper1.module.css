@@ -11,6 +11,7 @@
 .Item {
     width: 200px;
     font-family: peyda-medium;
+    cursor: pointer;
 }
 
 .Item img {

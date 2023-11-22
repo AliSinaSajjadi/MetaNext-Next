@@ -17,7 +17,7 @@ const Password: React.FC = () => {
           <h3 className={style.page}>رمز خود را وارد کنید</h3>
 
 
-              <form >
+              <form className={style.form} >
                 <input
                   className={style.number}
                   type="password"

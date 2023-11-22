@@ -118,7 +118,7 @@ const Swiper2: React.FC = () => {
           <img
             className={style.navBtn}
             id="customPrevButton"
-            src={isPrevButtonClickable ? "Swiper2/Navigation right.png" : "Swiper2/Navigation right.png"}
+            src={isPrevButtonClickable ? "Swiper2/Navigation right.png" : "Swiper2/NavigationUnactive right.png"}
             alt=""
             style={{ cursor: isPrevButtonClickable ? "pointer" : "not-allowed" }}
           />

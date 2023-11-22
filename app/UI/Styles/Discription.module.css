@@ -49,6 +49,7 @@ line-height: normal;
     flex-shrink: 0;
     border-radius: 10px;
     background: #011627;
+    cursor: pointer;
     
 
     }

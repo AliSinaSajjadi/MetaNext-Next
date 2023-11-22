@@ -1,17 +1,5 @@
 import style from "./Styles/Discription.module.css"
 
-//imgs
-
-import Arrow from "../../public/Discription/arrow-left.png"
-import Vector from "../../public/Discription/Vector.svg"
-import line from "../../public/Discription/Vector (1).png"
-import eclipse from"../../public/Discription/Ellipse 361.png"
-import round from "../../public/Discription/Ellipse 363.png"
-import Pround from "../../public/Discription/Ellipse 364.png"
-import Ground from "../../public/Discription/Ellipse 362.png"
-
-
-
 const Discription : React.FC = () => {
     return (
         <div className={style.container}>

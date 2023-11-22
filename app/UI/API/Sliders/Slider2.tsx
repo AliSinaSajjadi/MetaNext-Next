@@ -2,13 +2,6 @@ import React from "react";
 
 import style from "./Sliders.module.css";
 
-import calcPurple from "Sliders/calcPurple (2).png";
-import calcRed from "Sliders/calcRed (2).png";
-import calcOrange from "Sliders/calcOrange (2).png";
-import Data from "Sliders/Data.png";
-import ProductViews from "Sliders/product views.png";
-import Arrow from "Sliders/arrow-left.png";
-import ProTips from "Sliders/Pro Tips.png";
 
 const Slider2: React.FC = () => {
   return (
